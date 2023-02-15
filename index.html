@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Skilled e-learning landing page</title>
+</head>
+<body>
+  <header class="header">
+    <img class="header__img" src="assets/logo-dark.svg" alt="logo-dark">
+    <button class="header__button" type="button" value="Get Started">Get Started</button>
+  </header>
+  <main class="main">
+    <section class="main__hero">
+      <div class="hero__group">
+        <h1 class="hero__title">Maximize skill, minimize budget</h1>
+        <p>Our modern courses across a range of in-demand skills will give you the 
+        knowledge you need to live the life you want.
+        </p>
+        <button class="hero__button" type="button" value="Get Started">Get Started</button>
+      </div>
+      <picture>
+          <source media="(max-width: 599px)"
+                  srcset="assets/image-hero-mobile.png,
+                          assets/image-hero-mobile.webp,
+                          assets/image-hero-mobile@2x.png,
+                          assets/image-hero-mobile@2x.webp">
+          <source media="(max-width: 1024px)"
+                  srcset="assets/image-hero-tablet.png 695w,
+                          assets/image-hero-tablet.webp 695w,
+                          assets/image-hero-tablet@2x.png 1390w,
+                          assets/image-hero-tablet@2x.webp 1290w">
+          <source media="(min-width: 1025px)"
+                  srcset="assets/image-hero-desktop.png 1046w,
+                          assets/image-hero-desktop.webp 1046w,
+                          assets/image-hero-desktop@2x.png 2092w,
+                          assets/image-hero-desktop@2x.webp 2092w">
+        <img class="hero__img" src="assets/image-hero-mobile.png" alt="Girl drinking coffe in front of a laptop">
+      </picture>
+    </section>
+    <section class="main__courses-conteiner">
+      <h2 class="courses-conteiner__title">Check out our most popular courses!</h2>
+      <section class="courses-conteiner__courses">
+        <img class="courses__icon" src="assets/icon-animation.svg" alt="icon">
+        <h3 class="courses__title">Animation</h3>
+        <p>Learn the latest animation techniques to create stunning motion 
+          design and captivate your audience.
+        </p>
+        <a class="courses__link" href="#">Get Started</a>
+      </section>
+      <!--  -->
+      <section class="courses-conteiner__courses">
+        <img class="courses__icon" src="assets/icon-design.svg" alt="icon">
+        <h3 class="courses__title">Design</h3>
+        <p>Create beautiful, usable interfaces to help shape the future of 
+          how the web looks.
+        </p>
+        <a class="courses__link" href="#">Get Started</a>
+      </section>
+      <!--  -->
+      <section class="courses-conteiner__courses">
+        <img class="courses__icon" src="assets/icon-photography.svg" alt="icon">
+        <h3 class="courses__title">Photography</h3>
+        <p>Explore critical fundamentals like lighting, composition, and focus 
+          to capture exceptional photos.
+        </p>
+        <a class="courses__link" href="#">Get Started</a>
+      </section>
+      <!--  -->
+      <section class="courses-conteiner__courses">
+        <img class="courses__icon" src="assets/icon-crypto.svg" alt="icon">
+        <h3 class="courses__title">Crypto</h3>
+        <p>All you need to know to get started investing in crypto. Go from beginner 
+          to advanced with this 54 hour course.
+        </p>
+        <a class="courses__link" href="#">Get Started</a>
+      </section>
+      <!--  -->
+      <section class="courses-conteiner__courses">
+        <img class="courses__icon" src="assets/icon-business.svg" alt="icon">
+        <h3 class="courses__title">Business</h3>
+        <p>A step-by-step playbook to help you start, scale, and sustain your business 
+          without outside investment.
+        </p>
+        <a class="courses__link" href="#">Get Started</a>
+      </section>
+    </section>
+  </main>
+  <footer class="footer">
+    <img class="footer__img" src="assets/logo-light.svg" alt="logo-light">
+    <button class="footer__button" type="button" value="Get Started">Get Started</button>
+  </footer>
+</body>
+</html>
